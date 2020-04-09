@@ -1,0 +1,17 @@
+{
+  "name": "polling_streaming",
+  "version": "1.0.0",
+  "description": "Practice with sockets",
+  "main": "client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1",
+    "ws": "^7.2.3"
+  }
+}
