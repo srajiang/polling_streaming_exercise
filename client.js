@@ -6,7 +6,7 @@ const helpers = require('./helpers'); // helper func for getting a random intege
 /* vars */
 const displayedMessages = {}; 
 const terminal = readline.createInterface({   // creates an instance of Interface which allows comms through stdin and out
-  intput: process.stdin
+  input: process.stdin
 });
 
 terminal.on('line', text => {
