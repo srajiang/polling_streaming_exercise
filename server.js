@@ -15,7 +15,7 @@ const messages = [{id: 0, text: 'Welcome', username: 'Chat Room'}];
 const sockets = []; /* stores all the active Socket objects */
 
 
-/* express.json returns a middleware functio that parses incoming requests with 
+/* express.json returns a middleware function that parses incoming requests with 
  JSON payloads. App.use binds it to the instance of the express application */
 app.use(express.json()); 
 
